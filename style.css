@@ -1,16 +1,21 @@
-body {
+header {
   display: flex;
-    
   min-height: 100vh;
-  background: #252839;
+  background: #3e6c4f;
+  justify-content: center;
+  align-items: center;
 
+}
+
+body {
+  background: #3e6c4f;
 }
 
 h1 {
   position: relative;
   font-size: 10vw;
-  color: #252839;
-  -webkit-text-stroke: 0.2vw #383d52;
+  color: #32553f;
+  -webkit-text-stroke: 0.2vw red;
   text-transform: uppercase;
 }
 
@@ -21,9 +26,9 @@ h1::before{
   left: 0;
   width: 0;
   height: 100%;
-  color: #01fe87;
-  -webkit-text-stroke: 0vw #383d52;
-  border-right: 2px solid #01fe87;
+  color: #fecb07;
+  -webkit-text-stroke: 0vw #ffb526;
+  border-right: 2px solid #ffb526;
   overflow: hidden;
   animation: animate 6s linear infinite;
 }
@@ -38,4 +43,25 @@ h1::before{
   {
     width:100%;
   }
+}
+
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  text-align:center;
+  padding:2em;
+  word-spacing: 70px;
+  
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration:none;
+  color:#ffb526;
+  font-size:40px;
+}
+li a:hover {
+ color:darkcyan
 }
