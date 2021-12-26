@@ -25,9 +25,9 @@ h1::before{
   top: 0;
   left: 0;
   width: 0;
-  height: 100%;
+  height: 90%;
   color: #fecb07;
-  -webkit-text-stroke: 0vw #ffb526;
+  -webkit-text-stroke: 0w #ffb526;
   border-right: 2px solid #ffb526;
   overflow: hidden;
   animation: animate 6s linear infinite;
